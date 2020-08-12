@@ -9,13 +9,13 @@
 		{% csrf_token %}
 		<span class="input-group-text"><i class="fas fa-user"></i></span>
 		{{form.username}}
-		<br><span class="input-group-text"><i class="fas fa-envelope-square"></i></span>
+		<br><br><span class="input-group-text"><i class="fas fa-envelope-square"></i></span>
 		{{form.email}}
-		<br><span class="input-group-text"><i class="fas fa-key"></i></span>
+		<br><br><span class="input-group-text"><i class="fas fa-key"></i></span>
 		{{form.password1}}
-		<br><span class="input-group-text"><i class="fas fa-key"></i></span>
+		<br><br><span class="input-group-text"><i class="fas fa-key"></i></span>
 		{{form.password2}}
-		<br><input class="btn login_btn" type="submit" value="Register Account">
+		<br><br><input class="btn login_btn" type="submit" value="Register Account">
 	</form>
 		{{form.errors}}
 		Already have an account? <a href="{% url 'login' %}" class="ml-2">Login</a>
