@@ -14,9 +14,9 @@
 		{% csrf_token %}
 		<span class="input-group-text"><i class="fas fa-user"></i></span>
 			<input type="text" name="username" placeholder="Username..." class="form-control">
-		<br><span class="input-group-text"><i class="fas fa-key"></i></span>
+		<br><br><span class="input-group-text"><i class="fas fa-key"></i></span>
 			<input type="password" name="password" placeholder="Password..." class="form-control" >
-		<br><input class="btn login_btn" type="submit" value="Login">
+		<br><br><input class="btn login_btn" type="submit" value="Login">
 	</form>
 	
 	{% for message in messages %}
