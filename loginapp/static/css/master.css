@@ -1,0 +1,42 @@
+h1,h2,h3 {
+    font-style: initial;
+    font-size: xx-large;
+    color: darkblue;
+}
+a:link, a:visited {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: lightblue;
+}
+a:hover, a:active {
+    background-color: blue;
+}
+input[type=text],[type=email],[type=password] {
+    width: 25%;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    color: black;
+}
+label{
+    font-size: large;
+    color: darkblue;
+}
+input[type=text]:focus,[type=email]:focus,[type=password]:focus{
+    background-color: lightblue;
+}
+body {
+    background-color: aliceblue;
+}
+input[type=submit] {
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 15px 20px;
+}
+input[type=submit]:hover {
+    background-color: blue;
+}
